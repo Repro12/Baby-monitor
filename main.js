@@ -71,7 +71,11 @@ function draw()
 
          if (objects.length = 0)
          {
-            alarm.play()
+             alarm.play();
+             song.setVolume(1);
+             song.rate(1);
+         }else{
+             alarm.stop();
          }
     }
 }
