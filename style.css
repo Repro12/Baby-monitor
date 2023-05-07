@@ -1,0 +1,36 @@
+body{
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;
+}
+.heading:hover{
+    font-size: large;
+}
+.link{
+    background-color: darkblue;
+    border-radius: 10px;
+    margin-right: 5%;
+    width: 80px;
+    float: right;
+}
+canvas{
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px grey;
+    margin-top: 57px;
+}
+
+.footer
+{
+    position: fixed;
+    width: 100%;
+    color: aliceblue;
+    bottom: 0;
+    background-color: darkcyan;
+    line-height: 3;
+    text-align: center;
+}
